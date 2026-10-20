@@ -9,3 +9,7 @@ variable "prefix" {
 variable "labels" {
   type = map(string)
 }
+
+variable "region_name" {
+  type = string
+}

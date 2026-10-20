@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "aws"
-    location    = "global"
     application = "global"
     component   = "dns"
   }

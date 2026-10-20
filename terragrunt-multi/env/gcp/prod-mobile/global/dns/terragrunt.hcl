@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "gcp"
-    location    = "global"
     application = "global"
     component   = "dns"
   }

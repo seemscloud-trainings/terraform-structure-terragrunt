@@ -4,6 +4,8 @@ module "component" {
   project_id   = var.project_id
   project_name = var.project_name
 
+  region_name = var.region_name
+
   name   = var.name
   prefix = var.prefix
   labels = var.labels

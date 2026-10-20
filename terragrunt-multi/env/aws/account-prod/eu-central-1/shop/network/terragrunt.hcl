@@ -23,7 +23,6 @@ inputs = {
 
   labels = {
     cloud       = "aws"
-    location    = local.region.locals.region_name
     application = "shop"
     component   = "network"
   }

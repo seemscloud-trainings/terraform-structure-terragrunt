@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "oci"
-    location    = "global"
     application = "global"
     component   = "dns"
   }

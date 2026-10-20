@@ -6,7 +6,6 @@ prefix = "prod-common-temp"
 
 labels = {
   cloud       = "gcp"
-  location    = "global"
   application = "global"
   component   = "dns"
 }
