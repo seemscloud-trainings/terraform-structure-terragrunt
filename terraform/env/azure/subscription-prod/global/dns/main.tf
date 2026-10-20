@@ -1,7 +1,0 @@
-module "component" {
-  source = "git::ssh://git@github.com/seemscloud-trainings/terraform-modules.git//null-resources?ref=ce61179a0f37872e8376fdfe0220fafe08bdc6c4"
-
-  name   = var.name
-  prefix = var.prefix
-  labels = var.labels
-}
