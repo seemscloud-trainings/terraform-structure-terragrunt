@@ -1,9 +1,11 @@
+project_id   = "prod-common-temp"
+project_name = "prod-common-temp"
+
 name   = "global-dns"
-prefix = "prod-mobile"
+prefix = "prod-common-temp"
 
 labels = {
   cloud       = "gcp"
-  project     = "prod-mobile"
   location    = "global"
   application = "global"
   component   = "dns"

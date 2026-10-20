@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "gcp"
-    project     = local.project.locals.project_name
     location    = "global"
     application = "global"
     component   = "dns"

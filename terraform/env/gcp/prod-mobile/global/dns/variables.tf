@@ -9,3 +9,11 @@ variable "prefix" {
 variable "labels" {
   type = map(string)
 }
+
+variable "project_id" {
+  type = string
+}
+
+variable "project_name" {
+  type = string
+}

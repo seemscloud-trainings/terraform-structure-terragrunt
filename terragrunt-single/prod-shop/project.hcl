@@ -1,4 +1,4 @@
 locals {
-  project_id   = "prod-shop"
-  project_name = "prod-shop"
+  project_id   = "prod-common-temp"
+  project_name = "prod-common-temp"
 }

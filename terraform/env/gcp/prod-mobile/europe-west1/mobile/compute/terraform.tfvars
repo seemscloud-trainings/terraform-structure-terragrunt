@@ -1,9 +1,11 @@
+project_id   = "prod-common-temp"
+project_name = "prod-common-temp"
+
 name   = "mobile-compute"
-prefix = "prod-mobile"
+prefix = "prod-common-temp"
 
 labels = {
   cloud       = "gcp"
-  project     = "prod-mobile"
   location    = "europe-west1"
   application = "mobile"
   component   = "compute"

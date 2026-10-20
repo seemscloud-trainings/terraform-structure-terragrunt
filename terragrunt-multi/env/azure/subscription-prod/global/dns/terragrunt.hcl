@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "azure"
-    project     = local.subscription.locals.subscription_name
     location    = "global"
     application = "global"
     component   = "dns"

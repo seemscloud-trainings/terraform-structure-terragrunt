@@ -23,7 +23,6 @@ inputs = {
 
   labels = {
     cloud       = "azure"
-    project     = local.subscription.locals.subscription_name
     location    = local.region.locals.region_name
     application = "mobile"
     component   = "network"

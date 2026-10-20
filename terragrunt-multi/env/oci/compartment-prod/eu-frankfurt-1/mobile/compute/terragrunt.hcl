@@ -23,7 +23,6 @@ inputs = {
 
   labels = {
     cloud       = "oci"
-    project     = local.compartment.locals.compartment_name
     location    = local.region.locals.region_name
     application = "mobile"
     component   = "compute"

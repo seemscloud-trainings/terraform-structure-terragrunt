@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "aws"
-    project     = local.account.locals.account_name
     location    = "global"
     application = "global"
     component   = "dns"

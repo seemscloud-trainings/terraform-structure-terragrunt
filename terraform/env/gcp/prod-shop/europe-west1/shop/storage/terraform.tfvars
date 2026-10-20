@@ -1,9 +1,11 @@
+project_id   = "prod-common-temp"
+project_name = "prod-common-temp"
+
 name   = "shop-storage"
-prefix = "prod-shop"
+prefix = "prod-common-temp"
 
 labels = {
   cloud       = "gcp"
-  project     = "prod-shop"
   location    = "europe-west1"
   application = "shop"
   component   = "storage"

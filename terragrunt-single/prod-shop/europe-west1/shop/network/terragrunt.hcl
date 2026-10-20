@@ -23,7 +23,6 @@ inputs = {
 
   labels = {
     cloud       = "gcp"
-    project     = local.project.locals.project_name
     location    = local.region.locals.region_name
     application = "shop"
     component   = "network"

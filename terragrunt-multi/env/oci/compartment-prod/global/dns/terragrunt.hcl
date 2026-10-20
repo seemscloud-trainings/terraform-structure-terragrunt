@@ -21,7 +21,6 @@ inputs = {
 
   labels = {
     cloud       = "oci"
-    project     = local.compartment.locals.compartment_name
     location    = "global"
     application = "global"
     component   = "dns"
