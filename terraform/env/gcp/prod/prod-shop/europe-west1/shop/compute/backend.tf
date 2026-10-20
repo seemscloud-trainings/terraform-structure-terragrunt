@@ -1,5 +1,5 @@
 terraform {
   backend "gcs" {
-    prefix = "terraform/env/prod/gcp/prod-shop/europe-west1/shop/compute"
+    prefix = "terraform/env/gcp/prod/prod-shop/europe-west1/shop/compute"
   }
 }
