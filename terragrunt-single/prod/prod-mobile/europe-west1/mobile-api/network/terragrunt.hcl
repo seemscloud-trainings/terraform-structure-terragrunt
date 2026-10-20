@@ -14,18 +14,18 @@ locals {
   region      = read_terragrunt_config(find_in_parent_folders("region.hcl"))
 }
 
-inputs = {
-  environment_name = local.environment.locals.environment_name
-  project_id       = local.project.locals.project_id
-  project_name     = local.project.locals.project_name
-  region_name      = local.region.locals.region_name
+inputs = merge(
+  local.environment.inputs,
+  local.project.inputs,
+  local.region.inputs,
+  {
+    name   = "mobile-api-network"
+    prefix = local.project.inputs.project_name
 
-  name   = "mobile-api-network"
-  prefix = local.project.locals.project_name
-
-  labels = {
-    cloud       = "gcp"
-    application = "mobile-api"
-    component   = "network"
+    labels = {
+      cloud       = "gcp"
+      application = "mobile-api"
+      component   = "network"
+    }
   }
-}
+)
