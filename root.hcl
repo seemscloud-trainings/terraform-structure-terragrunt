@@ -8,7 +8,7 @@ remote_state {
 
   config = {
     bucket               = get_env("TF_STATE_BUCKET")
-    prefix               = "terragrunt-multi/${path_relative_to_include()}"
+    prefix               = "terragrunt-multi/env/${path_relative_to_include()}"
     skip_bucket_creation = true
   }
 }
